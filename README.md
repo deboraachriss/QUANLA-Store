@@ -35,14 +35,5 @@
 - `checkout.css` – Styling halaman checkout.
 - `gambar/` dan `image/` – Direktori aset gambar.
 
-## Cara Menjalankan Proyek
 
-1. Clone repository:
-
-   ```bash
-   git clone https://github.com/deboraachriss/QUANLA-Store.git
-   ```
-
-2. Buka folder proyek.
-3. Jalankan file `index.html` melalui browser.
 
