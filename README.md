@@ -1,14 +1,20 @@
+
 # QUANLA Store
 
-QUANLA Store adalah proyek website toko pakaian online yang dibuat menggunakan HTML, CSS, dan JavaScript. Website ini menampilkan katalog pakaian serta halaman produk untuk membantu pengguna melihat pilihan produk dan informasi sebelum melakukan checkout.
+**QUANLA Store** merupakan proyek pengembangan website toko pakaian online menggunakan HTML, CSS, dan JavaScript. Website ini dirancang untuk memberikan pengalaman berbelanja online melalui katalog produk, kategori pakaian, detail produk, dan halaman checkout.
 
-## Fitur
+## Live Demo
 
-- **Halaman utama** untuk menampilkan produk trending dan produk terbaru.
-- **Kategori produk** yang terdiri dari Tops, Dresses, dan Bottoms.
-- **Halaman produk dan checkout** untuk menampilkan informasi masing-masing produk.
-- **Kolom pencarian** yang dapat ditampilkan melalui ikon pencarian.
-- **Navigasi website** untuk berpindah antara halaman utama dan kategori produk.
+[Klik di sini untuk mengunjungi QUANLA Store](https://deboraachriss.github.io/QUANLA-Store/)
+
+## Fitur Utama
+
+- **Halaman Utama:** Menampilkan produk trending dan produk terbaru.
+- **Kategori Produk:** Menyediakan kategori Tops, Dresses, dan Bottoms.
+- **Detail Produk:** Menampilkan informasi produk.
+- **Halaman Checkout:** Menyediakan halaman checkout untuk produk.
+- **Pencarian Produk:** Menyediakan akses pencarian melalui ikon pencarian.
+- **Navigasi Website:** Memudahkan pengguna berpindah antarhalaman.
 
 ## Teknologi yang Digunakan
 
@@ -16,35 +22,27 @@ QUANLA Store adalah proyek website toko pakaian online yang dibuat menggunakan H
 - CSS3
 - JavaScript
 - Boxicons
-- Font Awesome
 
 ## Struktur Proyek
 
-```text
-QUANLA-Store/
-├── gambar/             # Aset gambar produk pendukung
-├── image/              # Gambar produk, logo, dan background
-├── MainPage.html       # Halaman utama
-├── MainPage.css        # Styling halaman utama
-├── MainPage.js         # Interaksi pencarian pada halaman utama
-├── tops.html           # Kategori Tops
-├── dresses.html        # Kategori Dresses
-├── bottoms.html        # Kategori Bottoms
-├── SecondPage.css      # Styling halaman kategori
-├── checkout.css        # Styling halaman produk/checkout
-└── checkout-*.html     # Halaman produk dan checkout
-```
+- `index.html` – Halaman utama website.
+- `MainPage.css` – Styling halaman utama.
+- `MainPage.js` – JavaScript halaman utama.
+- `tops.html` – Halaman kategori Tops.
+- `dresses.html` – Halaman kategori Dresses.
+- `bottoms.html` – Halaman kategori Bottoms.
+- `checkout-*.html` – Halaman checkout produk.
+- `checkout.css` – Styling halaman checkout.
+- `gambar/` dan `image/` – Direktori aset gambar.
 
-## Cara Menjalankan
+## Cara Menjalankan Proyek
 
-1. Unduh atau clone repository ini.
-2. Buka folder `QUANLA-Store`.
-3. Jalankan file `MainPage.html` menggunakan browser.
-4. Pilih kategori Tops, Dresses, atau Bottoms untuk melihat katalog produk.
-5. Pilih salah satu produk untuk membuka halaman produk/checkout.
+1. Clone repository:
 
-> Catatan: Proyek ini merupakan implementasi website sisi depan (front-end). README ini tidak menyatakan adanya backend, database, maupun integrasi pembayaran karena hal tersebut tidak teridentifikasi pada berkas proyek yang diperiksa.
+   ```bash
+   git clone https://github.com/deboraachriss/QUANLA-Store.git
+   ```
 
-## Status Proyek
+2. Buka folder proyek.
+3. Jalankan file `index.html` melalui browser.
 
-Proyek website toko pakaian online.
